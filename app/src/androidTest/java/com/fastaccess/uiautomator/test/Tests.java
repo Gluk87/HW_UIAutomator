@@ -1,9 +1,9 @@
-package com.fastaccess.test;
+package com.fastaccess.uiautomator.test;
 
-import com.fastaccess.pages.AboutPage;
-import com.fastaccess.pages.ThemePage;
-import com.fastaccess.pages.ToastPage;
-import com.fastaccess.pages.TrendingPage;
+import com.fastaccess.uiautomator.pages.AboutPage;
+import com.fastaccess.uiautomator.pages.ThemePage;
+import com.fastaccess.uiautomator.pages.ToastPage;
+import com.fastaccess.uiautomator.pages.TrendingPage;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -62,7 +62,7 @@ public class Tests extends BaseRunner {
         toast.waitByText("Markdown");
         toast.checkManufacturer();
         toast.checkBrand();
-        //toast.checkModel(); //Закомментировал, т.к. в моем случае выдает ошибку: SM-J730FM <> Galaxy J7
+        toast.checkModel(); //Закомментировал, т.к. в моем случае выдает ошибку: SM-J730FM <> Galaxy J7
         toast.clickSubmit();
         toast.waitByText("Submit feedback");
         toast.clickFabSubmit();

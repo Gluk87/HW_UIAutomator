@@ -1,6 +1,6 @@
-package com.fastaccess.test;
+package com.fastaccess.uiautomator.test;
 
-import com.fastaccess.app.TestApplication;
+import com.fastaccess.uiautomator.app.TestApplication;
 import org.junit.Before;
 
 

@@ -1,14 +1,14 @@
-package com.fastaccess.app;
+package com.fastaccess.uiautomator.app;
 
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 
-import com.fastaccess.pages.AboutPage;
-import com.fastaccess.pages.ThemePage;
-import com.fastaccess.pages.ToastPage;
-import com.fastaccess.pages.TrendingPage;
+import com.fastaccess.uiautomator.pages.AboutPage;
+import com.fastaccess.uiautomator.pages.ThemePage;
+import com.fastaccess.uiautomator.pages.ToastPage;
+import com.fastaccess.uiautomator.pages.TrendingPage;
 
 import androidx.test.uiautomator.By;
 import androidx.test.uiautomator.UiDevice;
@@ -18,9 +18,9 @@ import static androidx.test.core.app.ApplicationProvider.getApplicationContext;
 import static androidx.test.platform.app.InstrumentationRegistry.getInstrumentation;
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.junit.Assert.assertThat;
-import static com.fastaccess.pages.Page.mDevice;
-import static com.fastaccess.pages.Page.LAUNCH_TIMEOUT;
-import static com.fastaccess.pages.Page.BASIC_SAMPLE_PACKAGE;
+import static com.fastaccess.uiautomator.pages.Page.mDevice;
+import static com.fastaccess.uiautomator.pages.Page.LAUNCH_TIMEOUT;
+import static com.fastaccess.uiautomator.pages.Page.BASIC_SAMPLE_PACKAGE;
 
 public class TestApplication {
 

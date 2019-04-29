@@ -1,4 +1,4 @@
-package com.fastaccess.pages;
+package com.fastaccess.uiautomator.pages;
 
 import android.util.Log;
 
